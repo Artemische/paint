@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Piscel</title>
+</head>
+<body>
+  <div>
+      <canvas id="myPics" width="560" height="360"></canvas>
+      <div id='frame_container'>
+        <div id="0" class="frame">
+          <button id="delFrame">Del</button>
+        </div>
+      </div>
+      <div id="animation"></div>
+      <input id = 'fps' type="range" min="1" max="20" step="1" 
+      oninput="colFPS()">
+      <p id="fps-value"> 10 </p>
+  </div>
+  <input type="color" id="myColor">
+  line width: <input type="text" id="line-width" size="1" name="line-width" 
+  placeholder="1">
+  <button id="copy"> copy </button>
+  <button id="clear"> clear </button>
+  <button id="paste"> paste </button>
+  <button id="add-frame"> + </button>
+  <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+canvas {
+  border:1px solid black;
+  width: 560px;
+  height: 360px;
+}
+.frame{
+  width: 120px;
+  height: 120px;
+  background-position: center;
+  background-size: cover;
+  zoom: 1;
+  border: 1px solid black;
+}
+#animation {
+  width: 200px;
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+  zoom: 1;
+  border: 1px solid black;
+
+}
